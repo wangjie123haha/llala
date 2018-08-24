@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.day18rikao03.ui.show">
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recycle01"
+       android:layout_width="match_parent"
+       android:layout_weight="9"
+       android:layout_height="0dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0sp">
+        <CheckBox
+            android:id="@+id/cb_01"
+            android:text="全选/全不选"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/zj"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/js"
+            android:layout_centerHorizontal="true"
+            android:text="总计"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/js"
+            android:text="计算"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

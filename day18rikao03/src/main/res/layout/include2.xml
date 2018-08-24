@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+  <CheckBox
+      android:id="@+id/cb_03"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/img"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/title2"
+        android:text="title1"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+  <com.example.widge.togglebutton
+      android:id="@+id/toggle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+</LinearLayout>
